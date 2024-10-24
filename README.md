@@ -1,15 +1,18 @@
-# Serious Game Platform Data Analysis
+# Game Data Analysis
 
 ## Overview
-This project analyzes game data from a Serious Game Platform aimed at enhancing cognitive functions in elderly users. The analysis includes data cleaning, categorization of scores, and various visualizations to understand player performance across different levels and time periods.
+This project analyzes game data to enhance understanding of player performance. The analysis includes data cleaning, categorization of scores, and various visualizations to assess player engagement across different levels and time periods.
 
 ## Contents
-- Data Loading and Cleaning
-- Score Categorization
-- Average Score Calculation
-- Player Performance Insights
-- Data Visualizations
-- Query Function for Player Scores
+- [Requirements](#requirements)
+- [Data Preparation](#data-preparation)
+- [Key Analysis Steps](#key-analysis-steps)
+- [Visualizations](#visualizations)
+- [Query Function](#query-function)
+- [Example Usage](#example-usage)
+- [Conclusion](#conclusion)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ## Requirements
 To run this project, you need the following Python libraries:
@@ -18,6 +21,7 @@ To run this project, you need the following Python libraries:
 - `seaborn`
 
 You can install these libraries using pip:
+
 ```bash
 pip install pandas matplotlib seaborn
 ```
@@ -46,14 +50,15 @@ The analysis includes several visualizations to better understand the data:
 ## Query Function
 A function is provided to query the highest score achieved by a specific player, along with the corresponding level. Users can input a player ID to retrieve this information.
 
-### Example Usage
+## Example Usage
 To use the query function, run the script and input a valid player ID when prompted:
+
 ```python
 Enter Player ID to query: 123
 ```
 
 ## Conclusion
-This project provides a comprehensive analysis of player performance on the Serious Game Platform, offering insights into cognitive enhancements for elderly users. The visualizations and data categorization help in understanding trends and identifying key areas for improvement.
+This project provides a comprehensive analysis of player performance data, offering insights into engagement and trends. The visualizations and data categorization help in identifying key areas for improvement.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
